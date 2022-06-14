@@ -16,8 +16,14 @@ code {
     monospace;
 }
 
-.cursive {
-  font-family: "Amatic SC", cursive;
+@font-face {
+  font-family: "Lordish";
+  src: local("Lordish"), url("./assets/fonts/Lordish.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.lordish {
+  font-family: "Lordish";
   font-weight: 700;
 }
 
